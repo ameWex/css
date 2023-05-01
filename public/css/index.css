@@ -1,0 +1,142 @@
+:root {
+    background: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    background: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+div .box div {
+    background: green;
+}
+
+div .box p {
+    background: blue;
+}
+
+.brown {
+    background: brown;
+    color: white;
+}
+
+ul > li {
+    background: red;
+}
+
+button + span {
+    background: red;
+}
+
+p.susid ~ p {
+    background: blue;
+    color: white;
+}
+
+.salo, #bread {
+    background: yellow;
+}
+
+ul:first-child {
+    color: white;
+}
+
+/* Завдання 2 */
+.second-task ul:first-child li:first-child{
+    color: yellow;
+}
+
+/* Завдання 3 */
+.third-task ul:last-child li:first-child {
+    background: yellow;
+}
+
+.four-task ul li:last-child {
+  background: yellow;
+}
+
+.five-task ul li:last-child {
+    color: white;
+}
+
+.only-child-task div:only-child {
+    color: red;
+}
+
+.seven-task :first-of-type {
+    background: red;
+}
+
+.eight-task :last-of-type {
+    background: red;
+}
+
+.nine-task p:only-of-type {
+    background: yellow;
+}
+
+/* Урок 3 */
+a[href] {
+    color: white;
+}
+
+li[value] {
+    color: yellow;
+}
+
+li[value="3"] {
+    background: red;
+}
+
+button[class~="primary"] {
+    background: blue;
+}
+
+button[class^="secondary"] {
+    background: red;
+}
+
+li[class^="b"] {
+    color: green;
+}
+
+li[class*="on"] {
+    color: green;
+    background: white;
+}
+
+span[class$="s"] {
+    background: white;
+    color: blue;
+}
+
+.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+
+.lesson-three-task-ten p::first-line {
+    background: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder {
+    background: red;
+}
+
+.lesson-three-task-twelve ul > li::before {
+    content: "➤";
+}
+
+.lesson-three-task-thirteen ul > li::after {
+    content: "➤";
+}
